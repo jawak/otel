@@ -1,0 +1,18 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "testing otel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.38.0",
+    "@opentelemetry/sdk-node": "^0.41.1",
+    "express": "^4.18.2"
+  }
+}
